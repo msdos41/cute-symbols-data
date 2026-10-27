@@ -1,0 +1,107 @@
+{
+  "checked": "2026-10-26",
+  "limits": [
+    {
+      "platform": "Instagram",
+      "field": "bio",
+      "max_characters": 150,
+      "source": {
+        "label": "Instagram Help Center: Add a bio to your Instagram profile",
+        "url": "https://help.instagram.com/728994388226960",
+        "checked": "2026-10-26",
+        "note": "up to 150 characters"
+      }
+    },
+    {
+      "platform": "TikTok",
+      "field": "bio",
+      "max_characters": 80,
+      "source": {
+        "label": "TikTok Support: Changing account bio",
+        "url": "https://www.tiktok.com/support/faq_detail?id=7096681482017692162",
+        "checked": "2026-10-26",
+        "note": "bios cannot exceed 80 characters"
+      }
+    },
+    {
+      "platform": "TikTok, longer bio",
+      "field": "bio",
+      "max_characters": 160,
+      "source": null,
+      "note": "Reported for some accounts; not in TikTok help pages as of the check date"
+    },
+    {
+      "platform": "X",
+      "field": "bio",
+      "max_characters": 160,
+      "source": {
+        "label": "X Help Center: How to customize your profile",
+        "url": "https://help.x.com/en/managing-your-account/how-to-customize-your-profile",
+        "checked": "2026-10-26",
+        "note": "bio up to 160 characters"
+      }
+    },
+    {
+      "platform": "Discord",
+      "field": "bio",
+      "max_characters": 300,
+      "source": {
+        "label": "Discord blog: Discord Update, September 25, 2026",
+        "url": "https://discord.com/blog/discord-update-september-25-2026",
+        "checked": "2026-10-26",
+        "note": "profile bio limit raised from 190 to 300 characters"
+      }
+    }
+  ],
+  "sources": {
+    "robloxUsername": {
+      "label": "Roblox Support: username rules (Xbox Error 901)",
+      "url": "https://en.help.roblox.com/hc/en-us/articles/4412614080532",
+      "checked": "2026-10-26",
+      "note": "3 to 20 characters, letters and numbers, at most one underscore, not first or last"
+    },
+    "robloxDisplayName": {
+      "label": "Roblox Support: Changing Your Display Name",
+      "url": "https://en.help.roblox.com/hc/en-us/articles/4401938870292",
+      "checked": "2026-10-26",
+      "note": "all text is filtered; Japanese characters in beta for some users"
+    },
+    "robloxNameTest": {
+      "label": "Alt Typist: Roblox name symbols (independent test, 15 October 2026)",
+      "url": "https://alttypist.com/blog/roblox-name-symbols/",
+      "checked": "2026-10-26",
+      "note": "symbols, fancy fonts and emoji refused in usernames and display names",
+      "nofollow": true
+    },
+    "discordNames": {
+      "label": "Discord Support: New Usernames & Display Names",
+      "url": "https://support.discord.com/hc/en-us/articles/12620128861463",
+      "checked": "2026-10-26",
+      "note": "username characters; display names up to 32 characters"
+    },
+    "discordBio": {
+      "label": "Discord blog: Discord Update, September 25, 2026",
+      "url": "https://discord.com/blog/discord-update-september-25-2026",
+      "checked": "2026-10-26",
+      "note": "profile bio limit raised from 190 to 300 characters"
+    },
+    "instagramBio": {
+      "label": "Instagram Help Center: Add a bio to your Instagram profile",
+      "url": "https://help.instagram.com/728994388226960",
+      "checked": "2026-10-26",
+      "note": "up to 150 characters"
+    },
+    "tiktokBio": {
+      "label": "TikTok Support: Changing account bio",
+      "url": "https://www.tiktok.com/support/faq_detail?id=7096681482017692162",
+      "checked": "2026-10-26",
+      "note": "bios cannot exceed 80 characters"
+    },
+    "xBio": {
+      "label": "X Help Center: How to customize your profile",
+      "url": "https://help.x.com/en/managing-your-account/how-to-customize-your-profile",
+      "checked": "2026-10-26",
+      "note": "bio up to 160 characters"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+id,label,group,sample_abc,sample_codepoints
+bold,Bold,Letters,𝐚𝐛𝐜,U+1D41A U+1D41B U+1D41C
+italic,Italic,Letters,𝑎𝑏𝑐,U+1D44E U+1D44F U+1D450
+bolditalic,Bold italic,Letters,𝒂𝒃𝒄,U+1D482 U+1D483 U+1D484
+script,Script,Cursive,𝒶𝒷𝒸,U+1D4B6 U+1D4B7 U+1D4B8
+boldscript,Bold script,Cursive,𝓪𝓫𝓬,U+1D4EA U+1D4EB U+1D4EC
+fraktur,Fraktur,Gothic,𝔞𝔟𝔠,U+1D51E U+1D51F U+1D520
+boldfraktur,Bold fraktur,Gothic,𝖆𝖇𝖈,U+1D586 U+1D587 U+1D588
+double,Double-struck,Letters,𝕒𝕓𝕔,U+1D552 U+1D553 U+1D554
+sans,Sans,Letters,𝖺𝖻𝖼,U+1D5BA U+1D5BB U+1D5BC
+sansbold,Sans bold,Letters,𝗮𝗯𝗰,U+1D5EE U+1D5EF U+1D5F0
+sansitalic,Sans italic,Letters,𝘢𝘣𝘤,U+1D622 U+1D623 U+1D624
+sansbolditalic,Sans bold italic,Letters,𝙖𝙗𝙘,U+1D656 U+1D657 U+1D658
+mono,Monospace,Letters,𝚊𝚋𝚌,U+1D68A U+1D68B U+1D68C
+fullwidth,Fullwidth,Letters,ａｂｃ,U+FF41 U+FF42 U+FF43
+circled,Circled,Cute,ⓐⓑⓒ,U+24D0 U+24D1 U+24D2
+smallcaps,Small caps,Cute,ᴀʙᴄ,U+1D00 U+0299 U+1D04
+tiny,Tiny superscript,Cute,ᵃᵇᶜ,U+1D43 U+1D47 U+1D9C
+sparkle,Sparkle between letters,Cute,a✧b✧c,U+0061 U+2727 U+0062 U+2727 U+0063
+heart,Heart between letters,Cute,a♡b♡c,U+0061 U+2661 U+0062 U+2661 U+0063
+dots,Dotted letters,Cute,a·b·c,U+0061 U+00B7 U+0062 U+00B7 U+0063
+spaced,Spaced out,Cute,a b c,U+0061 U+0020 U+0062 U+0020 U+0063
+strike,Strikethrough,Lines,a̶b̶c̶,U+0061 U+0336 U+0062 U+0336 U+0063 U+0336
+underline,Underline,Lines,a̲b̲c̲,U+0061 U+0332 U+0062 U+0332 U+0063 U+0332
+dunderline,Double underline,Lines,a̳b̳c̳,U+0061 U+0333 U+0062 U+0333 U+0063 U+0333
