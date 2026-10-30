@@ -10,8 +10,8 @@ I collected this while building the site, because I kept needing the same answer
 
 | File | Rows | What's in it |
 |---|---|---|
-| `data/items.csv` | 2,811 | Every item you can copy on copycute.com: the text, its code points, the page and section it's listed under, and any emoji in it that Windows 10 can't draw |
-| `data/characters.csv` | 1,738 | Every distinct non-ASCII character used on the site, with its Unicode name and which of 8 reference fonts has a glyph for it |
+| `data/items.csv` | 2,862 | Every item you can copy on copycute.com: the text, its code points, the page and section it's listed under, and any emoji in it that Windows 10 can't draw |
+| `data/characters.csv` | 1,767 | Every distinct non-ASCII character used on the site, with its Unicode name and which of 8 reference fonts has a glyph for it |
 | `data/windows10-missing-emoji.csv` | 1,204 | Emoji sequences that Windows 10 can't draw: Emoji 12.1 and later, plus all 262 flags. Built from Unicode `emoji-test.txt` 18.0 |
 | `data/platform-limits.json` | 5 | Bio character limits for Instagram, TikTok, X and Discord, with the official help page and the date it was checked |
 | `data/font-styles.csv` | 24 | The 24 text styles of the [cute font generator](https://copycute.com/cute-font-generator/), with a sample and its code points |
@@ -20,7 +20,7 @@ Some items in `items.csv` span several lines (dot art, bio layouts). They're quo
 
 ## How it was checked
 
-**Font coverage (`characters.csv`).** A script reads each font's character map with fontTools and checks every character against DejaVu Sans, Noto Sans, Noto Sans Symbols, Noto Sans CJK JP, Liberation Sans, Noto Sans Math, Sarabun and Noto Color Emoji. In the latest run, all 1,738 characters had a glyph in at least one of them.
+**Font coverage (`characters.csv`).** A script reads each font's character map with fontTools and checks every character against DejaVu Sans, Noto Sans, Noto Sans Symbols, Noto Sans CJK JP, Liberation Sans, Noto Sans Math, Sarabun and Noto Color Emoji. In the latest run, all 1,767 characters had a glyph in at least one of them.
 
 That only shows a character exists in a common font. It doesn't prove that a given phone, app or game draws it. I haven't tested every device, so treat this as a first filter.
 
